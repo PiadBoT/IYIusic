@@ -21,6 +21,7 @@ from IYIusic.utils.inline.song import song_markup
 
 SONG_DOWNLOAD_DURATION = int("1000")
 DURATION_LIMIT_MIN = int("3000")
+SONG_DOWNLOAD_DURATION_LIMIT = int("1000")
 
 @app.on_message(filters.command(["song", "video"]) & filters.group & ~BANNED_USERS)
 @language
